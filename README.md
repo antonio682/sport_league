@@ -24,3 +24,5 @@ class RemoveExtra2FieldsFromPlayers < ActiveRecord::Migration[5.0]
     remove_column :players, :id_player_id
   end
 end
+#generate controller with helper
+rails g controller matches --helper 
