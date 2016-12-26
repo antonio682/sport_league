@@ -4,7 +4,7 @@ class BasketMatch
   attr_accessor :break_team_A_period_1, :break_team_B_period_1, :break_team_A_period_2, :break_team_B_period_2
   attr_accessor :break_team_A_period_3, :break_team_B_period_3, :break_team_A_period_4, :break_team_B_period_4
   attr_accessor :faults_team_A_period_1, :faults_team_B_period_1, :faults_team_A_period_2, :break_team_B_period_2
-  attr_accessor :faults_team_A_period_3, :faults_team_B_period_3, :faults_team_A_period_3, :break_team_B_period_4
+  attr_accessor :faults_team_A_period_3, :faults_team_B_period_3, :faults_team_A_period_4 :break_team_B_period_4
   
   def initialize( team_A, team_B, tournament, category, date_time, referee_1, referee_2, venue,
                  break_team_A_period_1, break_team_B_period_1, break_team_A_period_2, break_team_B_period_2, 
