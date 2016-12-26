@@ -7,6 +7,7 @@
     sudo service mysql start
 
 #Rails Cheat Sheet
+rails s -p $PORT -b $IP # arranca servidor en c.9
 rails new g new --api #generates new connect and jobs folders
 rails g model name_in_singular 
 rails g migration nombre
